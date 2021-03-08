@@ -305,13 +305,125 @@
 //	return 0;
 //}
 
+//#include <stdio.h>
+//int main()
+//{
+//	int age = 10;
+//	if(age<18)
+//	{
+//		printf("%d\n",age);
+//	}
+//	return 0;
+// } 
+
+//#include <stdio.h>
+//int main()
+//{
+//	int num = 0;
+//	printf("请输入一个数");
+//	int* p = &num;
+//	scanf("%d",&num);     //为什么scanf不能存放指针变量 
+//	printf("%d",num);
+//	if(num%2!=0)
+//	{
+//		printf("这是一个奇数");
+//	 } 
+//	return 0;
+// } 
+
+//#include <stdio.h>
+//int main()
+//{
+//	int num=0;
+//	for(;num<=100;num++)
+//	{
+//		printf("%d\n",num);
+//		
+//		if(num%2!=0)
+//		{
+//			printf("%d\n",num);	
+//			switch(num)
+//			{
+//				case 1:
+//				case 55:
+//				case 9:
+//					printf("帅哥");
+//					break;
+//				default:
+//					printf("啦啦啦");
+//					break;
+//			}
+//		} 
+//	}
+//	
+//	return 0;
+// } 
+//#include  <stdio.h>
+//int main()
+//{
+//	int a = 1;
+//	switch(a)
+//	{
+//		case 1:
+//			printf("+++");
+//		case 2:
+//			printf("-----");
+//			break;
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//	int n = 1;
+//	int m = 2;
+//	switch(n)
+//	{
+//		case 1:m++;
+//		case 2:n++;
+//		case 3:
+//			switch (n)
+//			{
+//				case 1:n++;
+//				case 2:m++;
+//					break;
+//			}
+//		case 4:m++;
+//				break;
+//		default:
+//				break;
+//	}
+//	printf("m = %d,n = %d\n",m,n);
+//	return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//	int i = 1;
+//	while(i<10)
+//	{
+//		i++;
+//		if(i==5)
+//		{
+//			continue;
+//		}
+//		printf("%d",i);
+//		
+//	}
+//	return 0;
+//}
+
 #include <stdio.h>
 int main()
 {
-	int age = 10;
-	if(age<18)
+	char c = 0;
+	while ((c =getchar()) != EOF )
 	{
-		printf("%d\n",age);
+		putchar(c);
 	}
 	return 0;
- } 
+}
+
+
